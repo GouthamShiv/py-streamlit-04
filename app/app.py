@@ -7,7 +7,7 @@ import numpy as np
 from PIL import Image
 
 st.title('NFL Football Stats (Rushing) Explorer')
-image = Image.open('./app/NFL_logos.jpg')
+image = Image.open('/app/NFL_logos.jpg')
 st.image(image, use_column_width=True, caption='NFL Football team logos')
 
 st.markdown("""
